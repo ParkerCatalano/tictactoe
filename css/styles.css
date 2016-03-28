@@ -1,0 +1,40 @@
+.title{
+	font-size:2rem;
+	float:left;
+	padding-bottom:30px;
+	font-weight:bold;
+}
+
+div#tic-tac-toe-game {
+  height: 650px;
+  width: 700px;
+  text-align: center;
+}
+.row {
+  text-align: center;
+  display: table-row;
+}
+.grid-spot {
+  height: 200px;
+  width: 200px;
+  display: inline;
+  float: left;
+  border: 5px solid #CCCCCC;
+  display: table-cell;
+}
+
+div#reset-btn {
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2em;
+  font-family: monaco;
+}
+
+.grid-spot:hover {
+  cursor: pointer;
+}
