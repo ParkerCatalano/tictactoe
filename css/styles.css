@@ -1,19 +1,17 @@
-.title{
-	font-size:2rem;
-	float:left;
-	padding-bottom:30px;
-	font-weight:bold;
+h1 {
+  font-family: monaco;
 }
-
 div#tic-tac-toe-game {
   height: 650px;
   width: 700px;
   text-align: center;
 }
+
 .row {
   text-align: center;
   display: table-row;
 }
+
 .grid-spot {
   height: 200px;
   width: 200px;
@@ -36,5 +34,10 @@ div#reset-btn {
 }
 
 .grid-spot:hover {
+  cursor: pointer;
+}
+
+div#reset-btn:hover {
+  background: #CCCCCC;
   cursor: pointer;
 }
