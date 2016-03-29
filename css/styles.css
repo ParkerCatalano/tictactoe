@@ -1,5 +1,5 @@
 h1 {
-  font-family: monaco;
+  font-family: times sans-serif;
 }
 div#tic-tac-toe-game {
   height: 650px;
@@ -12,7 +12,7 @@ div#tic-tac-toe-game {
   display: table-row;
 }
 
-.grid-spot {
+.grid-space {
   height: 200px;
   width: 200px;
   display: inline;
@@ -33,7 +33,7 @@ div#reset-btn {
   font-family: monaco;
 }
 
-.grid-spot:hover {
+.grid-space:hover {
   cursor: pointer;
 }
 

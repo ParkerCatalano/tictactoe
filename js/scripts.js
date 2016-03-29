@@ -1,33 +1,24 @@
 //business logic//Player
-var Board = ["blank","blank","blank","blank","blank","blank",
+var board = ["blank","blank","blank","blank","blank","blank",
 "blank","blank","blank"];
 
 function Player(mark) {
   this.mark = mark;
+}
 
-this.click = function(board,cellValue) {
+this.click = function(cellValue) {
+  var cellValue = this.id
    };
  };
-
-//Interface Logic
 var player1 = new Player("X");
-player1.mark();//should return X
+player1.click(function() {
+});//should return X
 var player2 = new Player("O");
-player2.mark();//should return O
+player2.click(board);//should return O
 //Space
 //Board
-var board = new Board();
-var testSpace = board.find(1,2);
 
-testSpace.mark(testPlayer);
-testSpace.markedBy();
-//Game
-board.gameOver();
-
-//document.getElementById('tic-tac-toe-game');
-//var spots = document.getElementsByClassName('grid-spot');
-//var resetBtn = document.getElementById('reset-btn');
-//var winScenarios = [
+var winScenarios = [
   [0, 1, 2], // first row across
   [3, 4, 5], // second ""
   [6, 7, 8], // third ""
