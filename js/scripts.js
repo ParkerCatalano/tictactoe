@@ -8,11 +8,6 @@ function Player(mark) {
 this.click = function(board,cellValue) {
    };
  };
-  //Board
-function Board(space,board) {
-  this.space = space;
-  this.game = game;
-}
 
 //Interface Logic
 var player1 = new Player("X");
