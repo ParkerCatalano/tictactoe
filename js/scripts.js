@@ -4,7 +4,6 @@ var board = ["blank","blank","blank","blank","blank","blank",
 
 function Player(mark) {
   this.mark = mark;
-}
 
 this.click = function(cellValue) {
   var cellValue = this.id
